@@ -6,7 +6,7 @@ import control.Label;
 import org.openqa.selenium.By;
 
 public class MainScreen {
-    public Button addButton = new Button(By.id("com.samsung.android.calendar:id/floating_action_button"));
+    public Button addButton = new Button(By.id("calendar.agenda.calendarplanner.agendaplanner:id/calendar_add"));
     public Button CancelButton=new Button(By.id("android:id/button2"));
 
     public Label getTaskName(String name){
