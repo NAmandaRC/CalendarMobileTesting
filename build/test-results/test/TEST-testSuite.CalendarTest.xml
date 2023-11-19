@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testSuite.CalendarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-19T23:01:53" hostname="LAPTOP-96PUAVCC" time="40.471">
+<testsuite name="testSuite.CalendarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-19T23:24:15" hostname="LAPTOP-96PUAVCC" time="25.954">
   <properties/>
-  <testcase name="createNewTaskTest()" classname="testSuite.CalendarTest" time="40.471"/>
+  <testcase name="createNewTaskTest()" classname="testSuite.CalendarTest" time="25.954"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -22,7 +22,9 @@ public class CalendarTest {
         addEvent.titleTxtBox.setText(title);
         addEvent.ALlDay.click();
         addEvent.saveButton.click();
-        Assertions.assertFalse(mainScreen.getTaskName(title).isControlDisplayed(),
+        mainScreen.Closewindow.click();
+        mainScreen.Events.click();
+        Assertions.assertTrue(mainScreen.getTaskName(title).isControlDisplayed(),
                 "ERROR el evento no fue creado");
     }
 
