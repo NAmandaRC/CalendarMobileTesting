@@ -24,7 +24,7 @@ public class CalendarTest {
         addEvent.saveButton.click();
         mainScreen.Menu.click();
         mainScreen.MenuDay.click();
-        Assertions.assertFalse(mainScreen.getTaskName(title).isControlDisplayed(),
+        Assertions.assertTrue(mainScreen.getTaskName(title).isControlDisplayed(),
                 "ERROR el evento no fue creado");
     }
 
