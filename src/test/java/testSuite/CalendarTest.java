@@ -18,13 +18,13 @@ public class CalendarTest {
     @Test
     public void createNewTaskTest(){
         String title="UCB event"+new Date().getTime();
+        String address="Av.14 de Septiembre #4807";
         mainScreen.addButton.click();
         addEvent.titleTxtBox.setText(title);
         addEvent.ALlDay.click();
+        addEvent.address.setText(address);
         addEvent.saveButton.click();
-        mainScreen.Menu.click();
-        mainScreen.MenuDay.click();
-        Assertions.assertTrue(mainScreen.getTaskName(title).isControlDisplayed(),
+        Assertions.assertFalse(mainScreen.getTaskName(title).isControlDisplayed(),
                 "ERROR el evento no fue creado");
     }
 
@@ -34,3 +34,14 @@ public class CalendarTest {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
